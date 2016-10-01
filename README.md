@@ -395,8 +395,45 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Numerical Methods for LMM Calibration
 
 ###Algorithmic Differentiation Library
+ * Algorithmic Differentiation in Finance
+ * Program Sequence Construction Modes
+ * Canonicalization - Program Statements Simplification by Decomposition
+ * Challenges of Automating the Differentiation
+ * Wengert Representation and Optimal Program Structure Synthesis
+ * Optimization using Pre-accumulation and Check-Pointing
+ * Algorithmic Differentiation Financial Application Space Customization
+ * Sensitivity Generation During Curve Construction
+ * Curve Jacobian
+ * Stochastic Entity Evolution - Sensitivity Formulation
+ * Sensitivities to Stochastic State Variates and Dynamical Parameters
+ * State Variate Evolution Constrained by Splines
+ * Formulation of the Evolution of the Stochastic Variate Self-Jacbian
+ * Correlated Stochastic Variates Evolution
+ * LMM Forward Rate Evolution
+ * Formulation of the Pay-off Function Stochastic Evolution
+ * Path Greeks
+ * Pay-off Sensitivity to the Correlation Matrix
+ * Algorithmic Differentiation in Pay-off Sensitivities Calculation
+ * Bermudan Swap Option Sensitivities Formulation
+ * Bermudan Swap Option Sensitivites Greek Estimation
+ * LSM Methodology
+ * NTD Basket Sensitivities Product Formulation
+ * Basket Options
 
 ###Asset Backed Model Library
+ * Overview of the Credit Model Methodology
+ * Scope of the Model
+ * Data Model Construction Rules
+ * Loan Data Quality Rules
+ * Lending Club Loan Level Data
+ * Loan Credit Model Implementation
+ * Credit Model Selection Methodology
+ * Regressor Contribution Weights
+ * Empirical Analysis of Seasoning Effects
+ * Analysis of the Vintage/Cohort Effects
+ * Analysis of the Empirical Seasonality Effects
+ * CPR and CDR Curve Estimation
+ * Credit Model Enhancements
 
 
 ##Contact
