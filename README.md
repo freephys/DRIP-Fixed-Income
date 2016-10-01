@@ -24,6 +24,7 @@ For Installation, Documentation and Samples, and the associated supporting Numer
 
 ##Features
 
+###Instrument/Trading Conventions Library
 
 ##Contact
 
