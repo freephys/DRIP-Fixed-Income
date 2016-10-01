@@ -2,7 +2,7 @@
 
 **v2.34**  *29 September 2016*
 
-DRIP Fixed Income is a collection of Java libraries for Instrument/Trading Conventions, Treasury Futures/Options, Funding/Forward/Overnight Curves, Multi-Curve Construction/Valuation, Collateral Valuation and XVA Metric Generation, Calibration and Hedge Attributions, Statistical Curve Construction, Bond RV Metrics, Stochastic Evolution and Option Pricing, Interest Rate Dynamics and Option Pricing, LMM Extensions/Calibrations/Greeks, Algorithmic Differentiation, Asset Backed Models and Analytics, .
+DRIP Fixed Income is a collection of Java libraries for Instrument/Trading Conventions, Treasury Futures/Options, Funding/Forward/Overnight Curves, Multi-Curve Construction/Valuation, Collateral Valuation and XVA Metric Generation, Calibration and Hedge Attributions, Statistical Curve Construction, Bond RV Metrics, Stochastic Evolution and Option Pricing, Interest Rate Dynamics and Option Pricing, LMM Extensions/Calibrations/Greeks, Algorithmic Differentiation, and Asset Backed Models and Analytics.
 
 DRIP Fixed Income is composed of the following main libraries:
  * Instrument/Trading Conventions Library
@@ -348,6 +348,37 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Volatility Observations vs. Calibrations
 
 ###Interest Rate Dynamics and Option Pricing Library
+
+####HJM Model
+ * Formulation
+ * Hull-White from HJM
+ * G2++ - A 2-Factor HJM Model
+ * HJM to LMM
+ * HJM PCA
+
+####Hull-White Model
+ * Short-Rate Formulation
+ * Hull-White Trinomial Tree
+ * Construction of the Symmetric Trinomial Tree
+ * Displacing the Nodes of the Trinomial Tree
+
+####Market Model fo Interest Rate Dynamics
+ * Nomenclature and Notation
+ * The BGM Model
+ * LIBOR Rate Dynamics
+ * Relation to the HJM Dynamics
+ * Existence, Uniqueness, and Regularity of the LIBOR Dynamics Solution
+ * Upper/Lower Bounds for the LIBOR Rate
+ * Invariant Measure for the LIBOR Rate
+ * BGM Cap/Floor Pricing
+ * Payer Swap Option Pricing
+ * Payer Swap Option Pricing Simplification
+ * Mismatched Periods Cap/Swaption Pricing
+ * Approximate vs. Full Simulation Comparisons
+ * Typical Model Calibration Results
+
+####The SABR Model
+ * Parameter Estimation
 
 ###LMM Extensions, Calibration, and Greeks Library
 
