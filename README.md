@@ -160,6 +160,23 @@ For Installation, Documentation and Samples, and the associated supporting Numer
 
 ###Multi-Curve Construction/Valuation Library
 
+####Correlated Multi-Curve Build-out
+ * Standard FRA Setup
+ * Standard FRA Options
+ * No arbitrage and Counter-party Risk Based Standard FRA Formulation
+ * Market FRA Setup
+ * Futures
+ * Multi-Curve Swap Valuation
+
+####Cross Currency Basis Swap
+ * Product Details and Valuation
+ * Building the CCS Discount Curve
+ * Custom CCBS Based Curve Construction SKU
+ * Mark-To-Market Cross-Currency Swap Valuation
+ * Mark-To-Market Cross-Currency Swap - Valuation Formulation
+ * Absolute/Relative MTM Application
+ * Per-Trade Risk Isolation Components
+
 ###Collateral and XVA Metrics Library
 
 ###Position Horizon Analyzer Library
