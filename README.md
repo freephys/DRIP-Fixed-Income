@@ -272,13 +272,82 @@ For Installation, Documentation and Samples, and the associated supporting Numer
 
 ###Position Horizon Analyzer Library
 
+####Convexity Corrections Associated with Margining
+
+####Hedging Considerations
+
+####Product Curve Effect Attribution
+ * Market Value Change Explain Components
+ * Coupon Accrual Intrinsic
+ * Market Parameters Intrinsic
+ * Market Parameters Extrinsic
+ * Market Value Change Effects Formulation
+
 ###Statistical Curve Construction Library
 
+####Inference Based Curve Construction
+ * Curve Smoothing in Finance
+ * Bayesian Curve Calibration
+ * Sequential Curve Estimation
+
 ###Bond RV Metrics Library
+ * The Bond RV Measure Set
+ * Asset Swap Spread
+ * Bond Basis
+ * Convexity
+ * Credit Basis
+ * Discount Margin
+ * Duration
+ * DV01
+ * G Spread
+ * I Spread
+ * Macaulay Duration
+ * Modified Duration
+ * Option Adjusted Spread
+ * Par Asset Swap Spread
+ * Par Spread
+ * Par Equivalent CDS Spread (PECS)
+ * Price
+ * Spread Over Treasury Benchmark
+ * Yield
+ * Yield Basis
+ * Yield Spread
+ * Yield01
+ * Zero Discount Margin (ZDM)
+ * Z Spread
+ * Relative Value Cross-Metric Grid
+ * Basic Measures
 
 ###Stochastic Evolution and Option Pricing Library
 
-###Interest Dynamics and Option Pricing Library
+####Stochastic Calculus
+ * Single-Factor Stochastic Calculus
+ * Multi-Factor Stochastic Calculus
+ * Risk Neutral Pricing Framework
+
+####Black Scholes Methodology
+ * The Replication Technique
+ * Capital Asset Pricing Model
+ * Multi-numeraire Formulation
+ * First Order Log-normal Black Scholes Greeks
+ * Second Order Log-normal Black Scholes Greeks
+ * Third Order Log-normal Black Scholes Greeks
+ * Time-Dependent Black Scholes
+ * Local Volatility Models
+ * Black Normal Model Specification and Dynamics
+ * Options on Forward
+ * The Black76 Model
+
+####Stochastic Volatility Models: The Heston Model
+ * Model Specification and Dynamics
+ * Price Estimation Through Characteristic Functions
+ * Fourier Inversion in Characteristic Function
+
+####Dynamical Latent State Calibration
+ * Fokker-Planck Equations
+ * Volatility Observations vs. Calibrations
+
+###Interest Rate Dynamics and Option Pricing Library
 
 ###LMM Extensions, Calibration, and Greeks Library
 
