@@ -169,131 +169,137 @@ For Installation, Documentation and Samples, and the associated supporting Numer
     <ul>
       <li>Merge Stretch Calibration</li>
     </ul>
-####Latent State Manifest Measure Sensitivity
- * Float-Float Manifest Measure Sensitivities
- * Multi-reset Floating Period
+    <H4>Latent State Manifest Measure Sensitivity</H4>
+    <ul>
+      <li>Float-Float Manifest Measure Sensitivities</li>
+      <li>Multi-reset Floating Period</li>
+    </ul>
+    <H4>OIS Valuation and Curve Construction</H4>
+    <ul>
+      <li>Base Framework and Environment Setup</li>
+      <li>OIS Valuation Extensions and Approximations</li>
+      <li>OIS-FX Basis Swap Valuation and Approximations</li>
+      <li>Arithmetic Accrual Convexity Correction</li>
+      <li>Composed Period Latent State Loadings</li>
+    </ul>
+    <H4>Spline Based Credit Curve Calibration</H4>
 
-####OIS Valuation and Curve Construction
- * Base Framework and Environment Setup
- * OIS Valuation Extensions and Approximations
- * OIS-FX Basis Swap Valuation and Approximations
- * Arithmetic Accrual Convexity Correction
- * Composed Period Latent State Loadings
+<H3>Multi-Curve Construction/Valuation Library</H3>
+    <H4>Correlated Multi-Curve Build-out</H4>
+    <ul>
+      <li>Standard FRA Setup</li>
+      <li>Standard FRA Options</li>
+      <li>No arbitrage and Counter-party Risk Based Standard FRA Formulation</li>
+      <li>Market FRA Setup</li>
+      <li>Futures</li>
+      <li>Multi-Curve Swap Valuation</li>
+    </ul>
+    <H4>Cross Currency Basis Swap</H4>
+    <ul>
+      <li>Product Details and Valuation</li>
+      <li>Building the CCS Discount Curve</li>
+      <li>Custom CCBS Based Curve Construction SKU</li>
+      <li>Mark-To-Market Cross-Currency Swap Valuation</li>
+      <li>Mark-To-Market Cross-Currency Swap - Valuation Formulation</li>
+      <li>Absolute/Relative MTM Application</li>
+      <li>Per-Trade Risk Isolation Components</li>
+    </ul>
 
-####Spline Based Credit Curve Calibration
-
-###Multi-Curve Construction/Valuation Library
-
-####Correlated Multi-Curve Build-out
- * Standard FRA Setup
- * Standard FRA Options
- * No arbitrage and Counter-party Risk Based Standard FRA Formulation
- * Market FRA Setup
- * Futures
- * Multi-Curve Swap Valuation
-
-####Cross Currency Basis Swap
- * Product Details and Valuation
- * Building the CCS Discount Curve
- * Custom CCBS Based Curve Construction SKU
- * Mark-To-Market Cross-Currency Swap Valuation
- * Mark-To-Market Cross-Currency Swap - Valuation Formulation
- * Absolute/Relative MTM Application
- * Per-Trade Risk Isolation Components
-
-###Collateral and XVA Metrics Library
-
-####Collateral Agreements and Derivatives Valuation
- * Two Collateralized Assets
- * Setup pf the Collateral Curve Dynamics
- * Collateralized Black-Scholes Formulation
- * Collateralization and Funding Derivative Valuation
- * Collateral PDE Formulation
- * Formward Contract Valuation
- * European Style Options
- * Cross-Currency Model
- * Collateral Choice Model
-
-####CVA and Funding Adjustments PDE
- * Counterparty Risk and Funding Costs
- * Notation, Symbology, and Key PDE's
- * Model Setup and the Derivation of the Bilateral Risky PDE
- * Using VHat (T, S) and Mark-To-Market at Default
- * Using V (T, S) and Mark-To-Market at Default
- * Funding and Default Payoff Examples
- * Counter-party Funding and PDE Extensions
- * Balance Sheet and Funding Cost Management
- * Unified Framework for Bilateral Counterpart Risk and Funding Adjustments
- * Simple Model for the Impact of Derivative Asset on Balance Sheet and Funding
- * Balance Sheet Management to Mitigate Funding Costs
- * Funding Strategies and Costs Impact
- * Generalized Semi-replication and Pricing PDE
- * Semi-replication
- * Examples of Different Bond Portfolios
- * The Perfect Replication - FCA Vanishes
- * Semi-replication with no Shortfall at own Default
- * Set-offs
- * Semi-replication with a Single Bond
- * Burgard and Kjaer (2013) Case Study
-
-####Accounting for OTC Derivatives: Funding Adjustments and Re-hypothecation Option
- * Status of Currenct FCA/FBA Accounting
- * Comaprison between FCA/FBA and FVA/FDA
- * OTC vs. Repo Markets
- * Modus Operandi of Funding Desks
- * MTM and the Asset Liability Symmetry
- * Rigorous Framework for Funding Costs
- * Funding Set VM RHO Computation
- * Shortcomings of Traditional CVA Systems
- * Addressing the Shortcomings of FCA/FBA Accounting
- * Valuation Adjustment Estimation Framework Setup
- * OTC Bookds Funding Set Decomposition
- * Inconsistent Booking under the FCA/FBA
- * Improvements Offered by the FVA/FDA Accounting
- * CET1 Deductions
- * "Going Concern" or Defaulable Banks
- * Cash Flow Streams Categorization
- * Accounting Rules
- * Contra-Asset and Contra-Liability Accounting for Credit Risk
- * Contra-Asset and Contra-Liability Accounting for Funding
- * Accounting Cash Flow Setup Framework
- * Cash Flows related to VM Funding
- * Cash Flows at Counter-party Default
- * Cash Flows at Bank Default
- * CVA and DVA
- * FVA and FDA
- * FCA and FBA
- * CA and CL Adjustments
- * Own Credit Sensitivities
- * Triggers and Close-out Adjustments
- * Collateral Triggers and Close-outs
- * Incorporating ISDA 1992 Close-outs
- * VM Re-hypothecability across Funding Sets
- * Trade and Portfolio FTP Estimation
- * FTP for FCA/FBA Accounting
- * FTP for FVA/FDA Accounting
- * Exit Prices and Fair Valuation
- * FVA/FDA Accounting
- * FCA/FBA Accounting
- * Liquidity Spreads, Asset Liability Symmetry, and Alternative Allocations for Excess Collateral
- * Working Capital Management and Operations
- * Equity Gain and Debt Gain
- * Liquidity Based Analysis and Treatment
- * Problems with Gain Accounting
- * Albanese and Andersen (2014) Case Study
- * Case Study Setting and Purpose
- * Scenario Estimation of the XVA Metrics
- * Product and Scenario Threshold Type Scenarios
- * XVA Error Metrics and Incrementals
- * Estimation ofthe FCA/FBA - FVA/FDA Mismatch
- * Traditional Challenges with Derivative Accounting
- * Problems with FCA/FBA Accounting
- * FVA/FDA vs. FCA/FBA Enhancement
- * Trading Staff Point of View
- * Challenges with the XVA Metric Estimation
- * Shortfalls of the FVA/FDA Scheme
- * Alternate Specialized Value Metrics
-
+<H3>Collateral and XVA Metrics Library</H3>
+    <H4>Collateral Agreements and Derivatives Valuation</H4>
+    <ul>
+      <li>Two Collateralized Assets</li>
+      <li>Setup pf the Collateral Curve Dynamics</li>
+      <li>Collateralized Black-Scholes Formulation</li>
+      <li>Collateralization and Funding Derivative Valuation</li>
+      <li>Collateral PDE Formulation</li>
+      <li>Forward Contract Valuation</li>
+      <li>European Style Options</li>
+      <li>Cross-Currency Model</li>
+      <li>Collateral Choice Model</li>
+    </ul>
+    <H4>CVA and Funding Adjustments PDE</H4>
+    <ul>
+      <li>Counterparty Risk and Funding Costs</li>
+      <li>Notation, Symbology, and Key PDE's</li>
+      <li>Model Setup and the Derivation of the Bilateral Risky PDE</li>
+      <li>Using VHat (T, S) and Mark-To-Market at Default</li>
+      <li>Using V (T, S) and Mark-To-Market at Default</li>
+      <li>Funding and Default Payoff Examples</li>
+      <li>Counter-party Funding and PDE Extensions</li>
+      <li>Balance Sheet and Funding Cost Management</li>
+      <li>Unified Framework for Bilateral Counterpart Risk and Funding Adjustments</li>
+      <li>Simple Model for the Impact of Derivative Asset on Balance Sheet and Funding</li>
+      <li>Balance Sheet Management to Mitigate Funding Costs</li>
+      <li>Funding Strategies and Costs Impact</li>
+      <li>Generalized Semi-replication and Pricing PDE</li>
+      <li>Semi-replication</li>
+      <li>Examples of Different Bond Portfolios</li>
+      <li>The Perfect Replication - FCA Vanishes</li>
+      <li>Semi-replication with no Shortfall at own Default</li>
+      <li>Set-offs</li>
+      <li>Semi-replication with a Single Bond</li>
+      <li>Burgard and Kjaer (2013) Case Study</li>
+    </ul>
+    <H4>Accounting for OTC Derivatives: Funding Adjustments and Re-hypothecation Option</H4>
+    <ul>
+      <li>Status of Currenct FCA/FBA Accounting</li>
+      <li>Comparison between FCA/FBA and FVA/FDA</li>
+      <li>OTC vs. Repo Markets</li>
+      <li>Modus Operandi of Funding Desks</li>
+      <li>MTM and the Asset Liability Symmetry</li>
+      <li>Rigorous Framework for Funding Costs</li>
+      <li>Funding Set VM RHO Computation</li>
+      <li>Shortcomings of Traditional CVA Systems</li>
+      <li>Addressing the Shortcomings of FCA/FBA Accounting</li>
+      <li>Valuation Adjustment Estimation Framework Setup</li>
+      <li>OTC Bookds Funding Set Decomposition</li>
+      <li>Inconsistent Booking under the FCA/FBA</li>
+      <li>Improvements Offered by the FVA/FDA Accounting</li>
+      <li>CET1 Deductions</li>
+      <li>"Going Concern" or Defaultable Banks</li>
+      <li>Cash Flow Streams Categorization</li>
+      <li>Accounting Rules</li>
+      <li>Contra-Asset and Contra-Liability Accounting for Credit Risk</li>
+      <li>Contra-Asset and Contra-Liability Accounting for Funding</li>
+      <li>Accounting Cash Flow Setup Framework</li>
+      <li>Cash Flows related to VM Funding</li>
+      <li>Cash Flows at Counter-party Default</li>
+      <li>Cash Flows at Bank Default</li>
+      <li>CVA and DVA</li>
+      <li>FVA and FDA</li>
+      <li>FCA and FBA</li>
+      <li>CA and CL Adjustments</li>
+      <li>Own Credit Sensitivities</li>
+      <li>Triggers and Close-out Adjustments</li>
+      <li>Collateral Triggers and Close-outs</li>
+      <li>Incorporating ISDA 1992 Close-outs</li>
+      <li>VM Re-hypothecability across Funding Sets</li>
+      <li>Trade and Portfolio FTP Estimation</li>
+      <li>FTP for FCA/FBA Accounting</li>
+      <li>FTP for FVA/FDA Accounting</li>
+      <li>Exit Prices and Fair Valuation</li>
+      <li>FVA/FDA Accounting</li>
+      <li>FCA/FBA Accounting</li>
+      <li>Liquidity Spreads, Asset Liability Symmetry, and Alternative Allocations for Excess Collateral</li>
+      <li>Working Capital Management and Operations</li>
+      <li>Equity Gain and Debt Gain</li>
+      <li>Liquidity Based Analysis and Treatment</li>
+      <li>Problems with Gain Accounting</li>
+      <li>Albanese and Andersen (2014) Case Study</li>
+      <li>Case Study Setting and Purpose</li>
+      <li>Scenario Estimation of the XVA Metrics</li>
+      <li>Product and Scenario Threshold Type Scenarios</li>
+      <li>XVA Error Metrics and Incrementals</li>
+      <li>Estimation of the FCA/FBA - FVA/FDA Mismatch</li>
+      <li>Traditional Challenges with Derivative Accounting</li>
+      <li>Problems with FCA/FBA Accounting</li>
+      <li>FVA/FDA vs. FCA/FBA Enhancement</li>
+      <li>Trading Staff Point of View</li>
+      <li>Challenges with the XVA Metric Estimation</li>
+      <li>Shortfalls of the FVA/FDA Scheme</li>
+      <li>Alternate Specialized Value Metrics</li>
+    </ul>
 ###Position Horizon Analyzer Library
 
 ####Convexity Corrections Associated with Margining
