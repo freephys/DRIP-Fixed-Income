@@ -400,83 +400,90 @@ For Installation, Documentation and Samples, and the associated supporting Numer
       <li>Construction of the Symmetric Trinomial Tree</li>
       <li>Displacing the Nodes of the Trinomial Tree</li>
     </ul>
+    <H4>Market Model of Interest Rate Dynamics</H4>
+    <ul>
+      <li>Nomenclature and Notation</li>
+      <li>The BGM Model</li>
+      <li>LIBOR Rate Dynamics</li>
+      <li>Relation to the HJM Dynamics</li>
+      <li>Existence, Uniqueness, and Regularity of the LIBOR Dynamics Solution</li>
+      <li>Upper/Lower Bounds for the LIBOR Rate</li>
+      <li>Invariant Measure for the LIBOR Rate</li>
+      <li>BGM Cap/Floor Pricing</li>
+      <li>Payer Swap Option Pricing</li>
+      <li>Payer Swap Option Pricing Simplification</li>
+      <li>Mismatched Periods Cap/Swaption Pricing</li>
+      <li>Approximate vs. Full Simulation Comparisons</li>
+      <li>Typical Model Calibration Results</li>
+    </ul>
+    <H4>The SABR Model</H4>
+    <ul>
+      <li>Parameter Estimation</li>
+    </ul>
 
-####Market Model of Interest Rate Dynamics
- * Nomenclature and Notation
- * The BGM Model
- * LIBOR Rate Dynamics
- * Relation to the HJM Dynamics
- * Existence, Uniqueness, and Regularity of the LIBOR Dynamics Solution
- * Upper/Lower Bounds for the LIBOR Rate
- * Invariant Measure for the LIBOR Rate
- * BGM Cap/Floor Pricing
- * Payer Swap Option Pricing
- * Payer Swap Option Pricing Simplification
- * Mismatched Periods Cap/Swaption Pricing
- * Approximate vs. Full Simulation Comparisons
- * Typical Model Calibration Results
+<H3>LMM Extensions, Calibration, and Greeks Library</H3>
+    <H4>LMM Calibration and Greeks Overview</H4>
+    <ul>
+      <li>Robust LMM Calibration Approaches Overview</li>
+      <li>Cross-Currency LIBOR Market Model</li>
+      <li>LMM Based Greeks Calculation Approaches</li>
+      <li>Major Extensions to LMM</li>
+      <li>Hedging the Derivatives Cash Flow</li>
+      <li>LMM Skew and its Calibration</li>
+      <li>LMM Smile and its Calibration</li>
+      <li>Cross-Currency Extensions to LMM</li>
+      <li>LMM Monte-Carlo Methods and Greeks</li>
+      <li>Numerical Methods for LMM Calibration</li>
+    </ul>
 
-####The SABR Model
- * Parameter Estimation
+<H3>Algorithmic Differentiation Library</H3>
+    <ul>
+      <li>Algorithmic Differentiation in Finance</li>
+      <li>Program Sequence Construction Modes</li>
+      <li>Canonicalization - Program Statements Simplification by Decomposition</li>
+      <li>Challenges of Automating the Differentiation</li>
+      <li>Wengert Representation and Optimal Program Structure Synthesis</li>
+      <li>Optimization using Pre-accumulation and Check-Pointing</li>
+      <li>Algorithmic Differentiation Financial Application Space Customization</li>
+      <li>Sensitivity Generation During Curve Construction</li>
+      <li>Curve Jacobian</li>
+      <li>Stochastic Entity Evolution - Sensitivity Formulation</li>
+      <li>Sensitivities to Stochastic State Variates and Dynamical Parameters</li>
+      <li>State Variate Evolution Constrained by Splines</li>
+      <li>Formulation of the Evolution of the Stochastic Variate Self-Jacbian</li>
+      <li>Correlated Stochastic Variates Evolution</li>
+      <li>LMM Forward Rate Evolution</li>
+      <li>Formulation of the Pay-off Function Stochastic Evolution</li>
+      <li>Path Greeks</li>
+      <li>Pay-off Sensitivity to the Correlation Matrix</li>
+      <li>Algorithmic Differentiation in Pay-off Sensitivities Calculation</li>
+      <li>Bermudan Swap Option Sensitivities Formulation</li>
+      <li>Bermudan Swap Option Sensitivites Greek Estimation</li>
+      <li>LSM Methodology</li>
+      <li>NTD Basket Sensitivities Product Formulation</li>
+      <li>Basket Options</li>
+    </ul>
 
-###LMM Extensions, Calibration, and Greeks Library
+<H3>Asset Backed Model Library</H3>
+    <ul>
+      <li>Overview of the Credit Model Methodology</li>
+      <li>Scope of the Model</li>
+      <li>Data Model Construction Rules</li>
+      <li>Loan Data Quality Rules</li>
+      <li>Lending Club Loan Level Data</li>
+      <li>Loan Credit Model Implementation</li>
+      <li>Credit Model Selection Methodology</li>
+      <li>Regressor Contribution Weights</li>
+      <li>Empirical Analysis of Seasoning Effects</li>
+      <li>Analysis of the Vintage/Cohort Effects</li>
+      <li>Analysis of the Empirical Seasonality Effects</li>
+      <li>CPR and CDR Curve Estimation</li>
+      <li>Credit Model Enhancements</li>
+    </ul>
 
-####LMM Calibration and Greeks Overview
- * Robust LMM Calibration Approaches Overview
- * Cross-Currency LIBOR Market Model
- * LMM Based Greeks Calculation Approaches
- * Major Extensions to LMM
- * Hedging the Derivatives Cash Flow
- * LMM Skew and its Calibration
- * LMM Smile and its Calibration
- * Cross-Currency Extensions to LMM
- * LMM Monte-Carlo Methods and Greeks
- * Numerical Methods for LMM Calibration
-
-###Algorithmic Differentiation Library
- * Algorithmic Differentiation in Finance
- * Program Sequence Construction Modes
- * Canonicalization - Program Statements Simplification by Decomposition
- * Challenges of Automating the Differentiation
- * Wengert Representation and Optimal Program Structure Synthesis
- * Optimization using Pre-accumulation and Check-Pointing
- * Algorithmic Differentiation Financial Application Space Customization
- * Sensitivity Generation During Curve Construction
- * Curve Jacobian
- * Stochastic Entity Evolution - Sensitivity Formulation
- * Sensitivities to Stochastic State Variates and Dynamical Parameters
- * State Variate Evolution Constrained by Splines
- * Formulation of the Evolution of the Stochastic Variate Self-Jacbian
- * Correlated Stochastic Variates Evolution
- * LMM Forward Rate Evolution
- * Formulation of the Pay-off Function Stochastic Evolution
- * Path Greeks
- * Pay-off Sensitivity to the Correlation Matrix
- * Algorithmic Differentiation in Pay-off Sensitivities Calculation
- * Bermudan Swap Option Sensitivities Formulation
- * Bermudan Swap Option Sensitivites Greek Estimation
- * LSM Methodology
- * NTD Basket Sensitivities Product Formulation
- * Basket Options
-
-###Asset Backed Model Library
- * Overview of the Credit Model Methodology
- * Scope of the Model
- * Data Model Construction Rules
- * Loan Data Quality Rules
- * Lending Club Loan Level Data
- * Loan Credit Model Implementation
- * Credit Model Selection Methodology
- * Regressor Contribution Weights
- * Empirical Analysis of Seasoning Effects
- * Analysis of the Vintage/Cohort Effects
- * Analysis of the Empirical Seasonality Effects
- * CPR and CDR Curve Estimation
- * Credit Model Enhancements
-
-
-##Contact
-
+<H2>Contact</H2>
+<br>
 lakshmi@synergicdesign.com
+<br>
   </body>
 </html>
