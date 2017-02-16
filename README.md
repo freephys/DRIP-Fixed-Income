@@ -1,6 +1,6 @@
 #DRIP Fixed Income
 
-**v2.34**  *29 September 2016*
+**v2.57**  *17 February 2017*
 
 DRIP Fixed Income is a collection of Java libraries for Instrument/Trading Conventions, Treasury Futures/Options, Funding/Forward/Overnight Curves, Multi-Curve Construction/Valuation, Collateral Valuation and XVA Metric Generation, Calibration and Hedge Attributions, Statistical Curve Construction, Bond RV Metrics, Stochastic Evolution and Option Pricing, Interest Rate Dynamics and Option Pricing, LMM Extensions/Calibrations/Greeks, Algorithmic Differentiation, and Asset Backed Models and Analytics.
 
