@@ -1,4 +1,4 @@
-#DRIP Fixed Income
+# DRIP Fixed Income
 
 **v2.67**  *22 March 2017*
 
@@ -22,26 +22,26 @@ DRIP Fixed Income is composed of the following main libraries:
 For Installation, Documentation and Samples, and the associated supporting Numerical Libraries please check out [DRIP] (https://github.com/lakshmiDRIP/DRIP).
 
 
-##Features
+## Features
 
-###Instrument/Trading Conventions Library
+### Instrument/Trading Conventions Library
 
-####Associations and Exchanges
+#### Associations and Exchanges
  * Associations
  * Exchanges
 
-####Date Conventions
+#### Date Conventions
  * Day Count Conventions
  * Business Day Conventions
 
-####Overnight and IBOR-like Indexes
+#### Overnight and IBOR-like Indexes
  * IBOR Indexes - Introduction
  * Main IBOR Indices
  * Other IBOR Indices
  * Overnight Index Definitions
  * Overnight Index Committees and Meeting Dates
 
-####Over the Counter Instruments
+#### Over the Counter Instruments
  * Forward Rate Agreement
  * Interest Rate Swaps
  * Vanilla IRS
@@ -53,7 +53,7 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Swap Option
  * Forex and Forward Swaps
 
-####Exchange Traded Instruments
+#### Exchange Traded Instruments
  * Overnight Futures
  * Short-Term Interest Rate Futures (STIR Futures)
  * Currency Specific Futures
@@ -71,96 +71,96 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Options on Bond Futures (non AUD/NZD) - Margin
  * AUD-NZD Bond Futures
 
-###Treasury Futures/Options Library
-####Treasury Futures Trading and Hedging
+### Treasury Futures/Options Library
+#### Treasury Futures Trading and Hedging
  * Contract Detail Specifications
 
-####Identification of the CTD in the Basket
+#### Identification of the CTD in the Basket
  * The Conversion Factor
  * Old vs. Active Treasury
  * Market Parameters Influencing the CTD Calculation
  * Impact of Yield Curve Changes
 
-####Valuation of Treasury Futures Contract
+#### Valuation of Treasury Futures Contract
  * Futures Contract and Mark-To-Market
  * Role of the Clearing Corporation
  * Delivery Options for the Underlying
  * Implied Basis for the Futures
  * Net Basis For Treasury Futures
 
-###Funding/Forward/Overnight Curve Library
+### Funding/Forward/Overnight Curve Library
 
-####Curve Builder Features
+#### Curve Builder Features
  * Discount Curves
 
-####Curve Construction Methodology
+#### Curve Construction Methodology
  * Approach
  * State Span Design Components
  * Curve Calibration From Instruments/Quotes
  * Calibration Considerations
 
-####Curve Construction Formulation
+#### Curve Construction Formulation
  * Segment Linear Discount Curve Calibration
  * Curve Jacobian
 
-####Stream Based Calibration
+#### Stream Based Calibration
  * Latent State Formulation Metric (LSFM)
  * Stream Inference Setup
  * Coupon Period Based Calibration Specification
  * Stream Based Calibration Specification
  * Calibration of Multi-Stream Components
 
-####Spaning Splines
+#### Spanning Splines
  * Setup and Formulation
  * Challenges with the Spanning Spline Approach
 
-####Monotone Descreasing Splines
+#### Monotone Descreasing Splines
  * Exponential Rational Basis Spline
  * Exponential Mixture Basis Set
 
-####Hagan-West (2006) Smoothness Preserving Spanning Spline
+#### Hagan-West (2006) Smoothness Preserving Spanning Spline
  * Monotone/Convexity Preserving Estimator
  * Positivity Preserving
  * Ameliorating Estimator
  * Harmonic Spline Extension to the Framework above
  * Minimal Quadratic Estimator
 
-####Extrapolation in Curve Construction
+#### Extrapolation in Curve Construction
 
-####Multi-Pass Curve Construction
+#### Multi-Pass Curve Construction
  * Bear-Sterns Multi-Pass Curve Building Techniques
 
-####Transition Spline (Or Stitching Spline)
+#### Transition Spline (Or Stitching Spline)
  * Stretch Modeling using Transition Splines
  * Stretch Partition/Isolation in Transition Splines
  * Knot Insertion vs. Transition Splines
  * Overlapping Stretches
 
-####Penalizing Exact/Closeness of Fit and Curvature Penalty
+#### Penalizing Exact/Closeness of Fit and Curvature Penalty
 
-####Index/Tenor Basis Swaps
+#### Index/Tenor Basis Swaps
  * Component Layout and Motivation
  * Formulation
 
-####Multi-Stretch Merged Curve Construction
+#### Multi-Stretch Merged Curve Construction
  * Merge Stretch Calibration
 
-####Latent State Manifest Measure Sensitivity
+#### Latent State Manifest Measure Sensitivity
  * Float-Float Manifest Measure Sensitivities
  * Multi-reset Floating Period
 
-####OIS Valuation and Curve Construction
+#### OIS Valuation and Curve Construction
  * Base Framework and Environment Setup
  * OIS Valuation Extensions and Approximations
  * OIS-FX Basis Swap Valuation and Approximations
  * Arithmetic Accrual Convexity Correction
  * Composed Period Latent State Loadings
 
-####Spline Based Credit Curve Calibration
+#### Spline Based Credit Curve Calibration
 
-###Multi-Curve Construction/Valuation Library
+### Multi-Curve Construction/Valuation Library
 
-####Correlated Multi-Curve Build-out
+#### Correlated Multi-Curve Build-out
  * Standard FRA Setup
  * Standard FRA Options
  * No arbitrage and Counter-party Risk Based Standard FRA Formulation
@@ -168,7 +168,7 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Futures
  * Multi-Curve Swap Valuation
 
-####Cross Currency Basis Swap
+#### Cross Currency Basis Swap
  * Product Details and Valuation
  * Building the CCS Discount Curve
  * Custom CCBS Based Curve Construction SKU
@@ -177,11 +177,11 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Absolute/Relative MTM Application
  * Per-Trade Risk Isolation Components
 
-###Collateral and XVA Metrics Library
+### Collateral and XVA Metrics Library
 
-####Collateral Agreements and Derivatives Valuation
+#### Collateral Agreements and Derivatives Valuation
  * Two Collateralized Assets
- * Setup pf the Collateral Curve Dynamics
+ * Setup of the Collateral Curve Dynamics
  * Collateralized Black-Scholes Formulation
  * Collateralization and Funding Derivative Valuation
  * Collateral PDE Formulation
@@ -190,7 +190,7 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Cross-Currency Model
  * Collateral Choice Model
 
-####CVA and Funding Adjustments PDE
+#### CVA and Funding Adjustments PDE
  * Counterparty Risk and Funding Costs
  * Notation, Symbology, and Key PDE's
  * Model Setup and the Derivation of the Bilateral Risky PDE
@@ -212,7 +212,7 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Semi-replication with a Single Bond
  * Burgard and Kjaer (2013) Case Study
 
-####Accounting for OTC Derivatives: Funding Adjustments and Re-hypothecation Option
+#### Accounting for OTC Derivatives: Funding Adjustments and Re-hypothecation Option
  * Status of Currenct FCA/FBA Accounting
  * Comaprison between FCA/FBA and FVA/FDA
  * OTC vs. Repo Markets
@@ -270,27 +270,27 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Shortfalls of the FVA/FDA Scheme
  * Alternate Specialized Value Metrics
 
-###Position Horizon Analyzer Library
+### Position Horizon Analyzer Library
 
-####Convexity Corrections Associated with Margining
+#### Convexity Corrections Associated with Margining
 
-####Hedging Considerations
+#### Hedging Considerations
 
-####Product Curve Effect Attribution
+#### Product Curve Effect Attribution
  * Market Value Change Explain Components
  * Coupon Accrual Intrinsic
  * Market Parameters Intrinsic
  * Market Parameters Extrinsic
  * Market Value Change Effects Formulation
 
-###Statistical Curve Construction Library
+### Statistical Curve Construction Library
 
-####Inference Based Curve Construction
+#### Inference Based Curve Construction
  * Curve Smoothing in Finance
  * Bayesian Curve Calibration
  * Sequential Curve Estimation
 
-###Bond RV Metrics Library
+### Bond RV Metrics Library
  * The Bond RV Measure Set
  * Asset Swap Spread
  * Bond Basis
@@ -318,14 +318,14 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Relative Value Cross-Metric Grid
  * Basic Measures
 
-###Stochastic Evolution and Option Pricing Library
+### Stochastic Evolution and Option Pricing Library
 
-####Stochastic Calculus
+#### Stochastic Calculus
  * Single-Factor Stochastic Calculus
  * Multi-Factor Stochastic Calculus
  * Risk Neutral Pricing Framework
 
-####Black Scholes Methodology
+#### Black Scholes Methodology
  * The Replication Technique
  * Capital Asset Pricing Model
  * Multi-numeraire Formulation
@@ -338,31 +338,31 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Options on Forward
  * The Black76 Model
 
-####Stochastic Volatility Models: The Heston Model
+#### Stochastic Volatility Models: The Heston Model
  * Model Specification and Dynamics
  * Price Estimation Through Characteristic Functions
  * Fourier Inversion in Characteristic Function
 
-####Dynamical Latent State Calibration
+#### Dynamical Latent State Calibration
  * Fokker-Planck Equations
  * Volatility Observations vs. Calibrations
 
-###Interest Rate Dynamics and Option Pricing Library
+### Interest Rate Dynamics and Option Pricing Library
 
-####HJM Model
+#### HJM Model
  * Formulation
  * Hull-White from HJM
  * G2++ - A 2-Factor HJM Model
  * HJM to LMM
  * HJM PCA
 
-####Hull-White Model
+#### Hull-White Model
  * Short-Rate Formulation
  * Hull-White Trinomial Tree
  * Construction of the Symmetric Trinomial Tree
  * Displacing the Nodes of the Trinomial Tree
 
-####Market Model fo Interest Rate Dynamics
+#### Market Model fo Interest Rate Dynamics
  * Nomenclature and Notation
  * The BGM Model
  * LIBOR Rate Dynamics
@@ -377,12 +377,12 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Approximate vs. Full Simulation Comparisons
  * Typical Model Calibration Results
 
-####The SABR Model
+#### The SABR Model
  * Parameter Estimation
 
-###LMM Extensions, Calibration, and Greeks Library
+### LMM Extensions, Calibration, and Greeks Library
 
-####LMM Calibration and Greeks Overview
+#### LMM Calibration and Greeks Overview
  * Robust LMM Calibration Approaches Overview
  * Cross-Currency LIBOR Market Model
  * LMM Based Greeks Calculation Approaches
@@ -394,7 +394,7 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * LMM Monte-Carlo Methods and Greeks
  * Numerical Methods for LMM Calibration
 
-###Algorithmic Differentiation Library
+### Algorithmic Differentiation Library
  * Algorithmic Differentiation in Finance
  * Program Sequence Construction Modes
  * Canonicalization - Program Statements Simplification by Decomposition
@@ -420,7 +420,7 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * NTD Basket Sensitivities Product Formulation
  * Basket Options
 
-###Asset Backed Model Library
+### Asset Backed Model Library
  * Overview of the Credit Model Methodology
  * Scope of the Model
  * Data Model Construction Rules
@@ -436,6 +436,6 @@ For Installation, Documentation and Samples, and the associated supporting Numer
  * Credit Model Enhancements
 
 
-##Contact
+## Contact
 
 lakshmi@synergicdesign.com
